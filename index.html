@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CEP-Find</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Encontre seu CEP</h1>
+        <p>Digite um CEP para consultar o endereço</p>
+    </header>
+    <main>
+        <form id="form">
+            <label for="cep">Digite seu cep</label>
+            <input type="text" id="cep" name="cep"  placeholder="Digite aqui">
+            <button type="submit">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    aria-hidden="true"
+        >
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <line x1="16" y1="16" x2="21" y2="21"></line>
+                </svg>
+                 Buscar
+            </button>
+        </form>
+        <p id="mensagem"></p>
+
+        <section id="resultado">
+            <div class="campo">
+                <label for="logradouro">Logradouro</label>
+                <input type="text" id="logradouro" readonly>
+            </div>
+            <div class="campo">
+                <label for="bairro">Bairro</label>
+                <input type="text" id="bairro" readonly>
+            </div>
+            <div class="campo">
+                <label for="cidade">Localidade</label>
+                <input type="text" id="cidade" readonly>
+            </div>
+            <div class="campo">
+                <label for="estado">UF</label>
+                <input type="text" id="estado" readonly>
+            </div>
+
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
+# SearchForm
+# AddressResult
