@@ -2,6 +2,10 @@
 
 Aplicação web desenvolvida com HTML, CSS e JavaScript para consulta de CEP através da API ViaCEP.
 
+
+Acessar a aplicação (https://kerbycharles.github.io/cep-finder--web/)
+
+
  ## Sobre o projeto
 
 O CEP-Finder Web permite que o usuário informe um CEP e consulte informações relacionadas ao endereço, utilizando a API ViaCEP.
