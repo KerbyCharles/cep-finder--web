@@ -57,6 +57,11 @@ form {
     
     box-shadow: 0 10px 30px rgb(15, 23, 42,0.12);
 }
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+}
 .mens
 label{
     font-size: 16px;
@@ -155,7 +160,6 @@ button svg{
     color:var(--cor-texto-secundario);
 }
 
-
 @media (max-width: 500px){
     header {
         margin-top: 40px;
@@ -169,4 +173,5 @@ button svg{
     }
     #resultado{
         padding: 22px;
-    }
+    }
+}
